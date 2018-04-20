@@ -1,0 +1,80 @@
+/* universal */
+body, section{
+  padding: 6%
+}
+
+.centered{
+  text-align: center;
+}
+
+.left-align{
+  text-align: left;
+  position: 50% 50%;
+}
+
+.bg-image{
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* max-width: 100%; */
+  min-height: 50vh;
+}
+
+.green-font{
+
+}
+
+.dark-font{
+
+}
+
+h1, h2, h3, h4{
+  margin: 0;
+  padding: 0;
+}
+
+.padding-top{
+  padding-top: 5%;
+}
+
+/********* hero **********/
+header{
+  margin: 0;
+}
+
+header a{
+  text-decoration: none;
+  padding: 5%;
+  color: #828282;
+  font-family: 'Source Sans Pro', sans-serif ;
+}
+
+.heading{
+  padding: 5% 0 0 5%;
+  font-size: 1.9rem;
+}
+
+.banner-image{
+  background-position: 30% 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* max-width: 100%; */
+  height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* colors and fonts:
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+
+colors: #2B2B2B black; #9B9B9B gray; #BBC085 green; #f9ceb7 light pink; #ebebeb lt gray bg */
