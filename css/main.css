@@ -107,7 +107,7 @@ header a{
 }
 
 /******** contact section ******/
-#contact{
+.contact{
   background-color: #ebebeb;
 }
 
@@ -118,23 +118,22 @@ header a{
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 50vh;
-
 }
 
-#contact h2{
+.contact h2{
   font-family: 'Lora', serif;
   font-weight: 700;
   padding-bottom: .4rem;
 }
 
-#contact h4{
+.contact h4{
   font-weight: normal;
   font-size: 1.2rem;
   /* padding-bottom: .4rem; */
   line-height: 2rem;
 }
 
-#contact a{
+.contact a{
   text-decoration: none;
   color: #c49075;
   font-weight: bold;
@@ -142,7 +141,8 @@ header a{
   font-size: 1.4rem;
   line-height: 2rem;
 }
-#contact img{
+
+.contact img{
     border: 0;
     max-inline-size: 1.4rem;
 }
@@ -164,7 +164,73 @@ header a{
   }
 
 
+/********** media queries *********/
 
+@media only screen and (max-width: 575px) {
+    .contact{
+      text-align: center;
+    }
+
+    .contact img{
+        display: none;
+    }
+
+    #social-media img{
+      max-inline-size:1.8rem;
+      display: inline;
+    }
+  }
+
+  @media only screen and (max-width: 770px) {
+    .contact-pic{
+      border: 12px solid white;
+      background-position: center;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 50vh;
+      margin-bottom: 4%;
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 800px) {
+      .contact{
+        text-align: center;
+      }
+
+      .contact a{
+        text-decoration: none;
+        color: #c49075;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+
+      .contact img{
+          display: none;
+      }
+
+      #social-media img{
+        max-inline-size:1.8rem;
+        display: inline;
+      }
+    }
+
+    @media only screen and (min-width: 801px) and (max-width: 952px) {
+      .contact a{
+        text-decoration: none;
+        color: #c49075;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+      .contact img{
+          border: 0;
+          max-inline-size: 1rem;
+      }
+    }
 
 
 /* colors and fonts:
