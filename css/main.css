@@ -1,6 +1,10 @@
 /* universal */
 body, section{
-  padding: 6%
+  padding: 6%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  color: #2B2B2B;
+
 }
 
 .centered{
@@ -22,11 +26,14 @@ body, section{
 }
 
 .green-font{
-
+  color: #BBC085;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
 }
 
-.dark-font{
-
+.gray-font{
+  color: #9B9B9B;
+  line-height: 1.5rem;
 }
 
 h1, h2, h3, h4{
@@ -36,6 +43,10 @@ h1, h2, h3, h4{
 
 .padding-top{
   padding-top: 5%;
+}
+
+.padding-bottom{
+  padding-bottom: 7%;
 }
 
 /********* hero **********/
@@ -51,7 +62,7 @@ header a{
 }
 
 .heading{
-  padding: 5% 0 0 5%;
+  padding: 5% 0 0 6%;
   font-size: 1.9rem;
 }
 
@@ -64,10 +75,93 @@ header a{
   height: 90vh;
 }
 
+/********** skills *********/
 
+#skills{
+  background-color: #f9ceb7;
+  text-align: center;
+  font-family: 'Lora', serif;
+  padding: 5%;
+  line-height: 1.4rem;
+  font-size: .9rem;
+  color: #2B2B2B;
+}
 
+#skills h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-size: 1.2rem;
+  /* line-height: 1.4rem; */
+}
 
+.icons{
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    /* max-width: 100%; */
+    min-height: 20vh;
+}
 
+.col-padding{
+  padding: 0 5% 0 5%;
+}
+
+/******** contact section ******/
+#contact{
+  background-color: #ebebeb;
+}
+
+.contact-pic{
+  border: 12px solid white;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+
+}
+
+#contact h2{
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  padding-bottom: .4rem;
+}
+
+#contact h4{
+  font-weight: normal;
+  font-size: 1.2rem;
+  /* padding-bottom: .4rem; */
+  line-height: 2rem;
+}
+
+#contact a{
+  text-decoration: none;
+  color: #c49075;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+#contact img{
+    border: 0;
+    max-inline-size: 1.4rem;
+}
+
+#social-media ul{
+  padding-left: 0;
+  margin:0;
+  line-height: 3rem;
+}
+
+#social-media li {
+     display: inline-block;
+     text-decoration: none;
+     padding-left: 0;
+     padding-right: 2%;
+}
+#social-media img {
+    max-inline-size: 2rem;
+  }
 
 
 
