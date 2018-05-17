@@ -4,7 +4,6 @@ body, section{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   color: #2B2B2B;
-
 }
 
 .centered{
@@ -47,6 +46,11 @@ h1, h2, h3, h4{
 
 .padding-bottom{
   padding-bottom: 7%;
+}
+
+.black-font{
+  color: #2B2B2B;
+  font-size: 1.5rem;
 }
 
 /********* hero **********/
@@ -104,6 +108,10 @@ header a{
 
 .col-padding{
   padding: 0 5% 0 5%;
+}
+
+.first-icon{
+  margin-top: -11px;
 }
 
 /******** contact section ******/
